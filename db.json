@@ -1,0 +1,118 @@
+{
+  "topic": [
+    {
+      "id": 1,
+      "name": "programming-languages"
+    },
+    {
+      "id": 2,
+      "name": "devices"
+    },
+    {
+      "id": 3,
+      "name": "app"
+    }
+  ],
+  "article": [
+    {
+      "id": 1,
+      "topic": {
+        "id": 1,
+        "name": "programming-languages"
+      },
+      "title": "JS",
+      "text": "Angular",
+      "description": "Angular (commonly referred to as \"Angular 2+\" or \"Angular v2 and above\")[4][5] is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS."
+    },
+    {
+      "id": 2,
+      "topic": {
+        "id": 2,
+        "name": "devices"
+      },
+      "title": "Android Devices",
+      "text": "Android Enterprise works wherever you do.",
+      "description": "Android Enterprise Recommended. It’s not just a seal of approval. It’s a shortlist of devices and service providers that meet Google’s strict enterprise requirements. So you can feel good about setting your business up on mobile."
+    },
+    {
+      "id": 3,
+      "topic": {
+        "id": 3,
+        "name": "app"
+      },
+      "title": "Google Apps",
+      "text": "GOOGLE",
+      "description": "Скрипт додатків Google Apps – це єдина платформа малокодової розробки, за допомогою якої можна легко та швидко створювати корпоративні рішення для автоматизації, інтеграції та розширення можливостей сервісів Google Workspace. За допомогою скрипту додатків Google Apps корпоративні користувачі можуть створювати власні рішення на базі Google Workspace, обходячись без професійних ресурсів для розробки програмного забезпечення. Скрипт додатків Google Apps доступний для всіх користувачів з обліковими записами Gmail."
+    },
+    {
+      "id": 4,
+      "topic": {
+        "id": 1,
+        "name": "programming-languages"
+      },
+      "title": "Java",
+      "text": "Java (programming language)",
+      "description": "Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA),[16] meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.[17] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them."
+    },
+    {
+      "title": "Angular",
+      "text": "JS",
+      "description": "JS",
+      "topic": {
+        "id": 3,
+        "name": "app"
+      },
+      "id": 5
+    },
+    {
+      "title": "Привіт",
+      "text": "Світ",
+      "description": "js",
+      "topic": {
+        "id": 2,
+        "name": "devices"
+      },
+      "id": 6
+    },
+    {
+      "title": "Angular",
+      "text": "bn",
+      "description": "dsad",
+      "topic": {
+        "id": 2,
+        "name": "devices"
+      },
+      "id": 7
+    },
+    {
+      "title": "nnnnnnnnn",
+      "text": "n",
+      "description": "n",
+      "topic": {
+        "id": 1,
+        "name": "programming-languages"
+      },
+      "id": 8
+    },
+    {
+      "title": "bbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "text": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "description": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "topic": {
+        "id": 2,
+        "name": "devices"
+      },
+      "id": 9
+    },
+    {
+      "title": "JSJSJSJS",
+      "text": "JSJSJSJSJSJSJSJSJSJSJSJS",
+      "description": "JSJSJSJSJSJSJSJSJSJSJSJSJSJSJSJS",
+      "topic": {
+        "id": 1,
+        "name": "programming-languages"
+      },
+      "id": 10
+    }
+  ]
+}

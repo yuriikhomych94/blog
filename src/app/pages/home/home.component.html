@@ -1,0 +1,47 @@
+<form class="card" [formGroup]="form">
+    <h1>Angular Forms</h1>
+
+    <div class="form-control">
+        <label>Title</label>
+        <input type="text" formControlName="title">
+        
+      <div class="validation" *ngIf="form.get('title').invalid && form.get('title').touched">
+        <small *ngIf="form.get('title').errors.required">
+          Title не може бути пустим
+        </small>
+        <small *ngIf="form.get('title').errors.minlength">
+          Дожина повинна бути не менше {{form.get('title').errors.minlength.requiredLength}}
+          Зараз довжина становить {{form.get('title').errors.minlength.actualLength}}
+        </small>
+      </div>
+    </div>
+
+    <div class="form-control">
+        <label>Text</label>
+        <input type="textarea" formControlName="text">
+    </div>
+
+    <div class="form-control">
+        <label>Description</label>
+        <input type="textarea" formControlName="description">
+    </div>
+
+    <div class="form-control">
+        <label>Category</label>
+        <select formControlName="topic">
+            <option *ngFor="let topic of topics" [ngValue]="topic">{{topic.name}}</option>
+        </select>
+    </div>
+
+    <button (click)="addArticle()" class="addArticle" [disabled]="form.invalid">Add</button>
+
+</form>
+
+
+<div class="card" *ngFor="let article of articles" [routerLink]="['/menu/' + article.topic.name , article.id]">
+    <hr>
+    <h4> {{ article.title }} </h4>
+    <h2> {{ article.text }} </h2>
+    <p> {{ article.description }} </p>
+    <hr>
+</div>

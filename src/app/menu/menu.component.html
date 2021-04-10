@@ -1,0 +1,11 @@
+<a [routerLink]="['/home']" class="buttonHome">Home</a>
+
+<div class="articleName">
+    <h1>{{articleTitle | titlecase}}</h1>
+</div>
+
+<div class="card" *ngFor="let a of article">
+    <h1>{{a.title}}</h1>
+    <h3>{{a.text}}</h3>
+    <button [routerLink]="['/menu/' + a.topic.name , a.id]" class="readMore">Read More</button>
+</div>
